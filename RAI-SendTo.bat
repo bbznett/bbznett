@@ -1,1 +1,4 @@
-cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" %1"
+set __COMPAT_LAYER=RunAsInvoker
+start "" "%~dpnx1"
+
+# shell:sendto
